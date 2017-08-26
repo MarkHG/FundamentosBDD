@@ -1,15 +1,17 @@
 package practica1;
 
 public class Cliente {
+    
+    private static int idGeneral = 0;
 
     private String nombre;
     private int id;
     private String direccion;
     private int telefono;
 
-    public Cliente(String nombre, int id, String direccion, int telefono) {
+    public Cliente(String nombre, String direccion, int telefono) {
         this.nombre = nombre;
-        this.id = id;
+        this.id = idGeneral++;
         this.direccion = direccion;
         this.telefono = telefono;
     }
@@ -45,6 +47,10 @@ public class Cliente {
     public void setTelefono(int telefono) {
         this.telefono = telefono;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "nombre=" + nombre + ", id=" + id + ", direccion=" + direccion + ", telefono=" + telefono + '}';
+    }
     
 }
