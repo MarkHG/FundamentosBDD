@@ -35,9 +35,13 @@ public class Gym {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Ingrese el id  de la clase");
         int id = entrada.nextInt();
+        System.out.println("Ingrese el profesor");
         String profesor = entrada.nextLine();
+        System.out.println("Ingrese el nombre");
         String nombre = entrada.nextLine();
+        System.out.println("Ingrese el horario de Inicio");
         int horarioInicio = entrada.nextInt();
+        System.out.println("Ingrese el horario final");
         int horarioFin = entrada.nextInt();
         
         ClaseGym nuevo = new ClaseGym(id, profesor, nombre, horarioInicio, horarioFin);
