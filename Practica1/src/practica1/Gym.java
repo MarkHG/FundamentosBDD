@@ -63,7 +63,19 @@ public class Gym {
     
     }
     
-    public static void actualizarCliente() {
+    public static void actualizarCliente(String archivo) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Escribe el nombre");
+        String nombre = entrada.nextLine();
+        System.out.println("Escribe la dirección");
+        String direccion = entrada.nextLine();
+        System.out.println("Escribe el telefono");
+        int telefono = entrada.nextInt();
+        
+        Cliente nuevo = new Cliente(nombre, direccion, telefono); 
+        
+  
+        
     
     }
     
@@ -71,12 +83,46 @@ public class Gym {
     
     }
     
-    public static ClaseGym eliminarCliente() {
+    public static ClaseGym eliminarCliente(String archivo) {
+      
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ingresa el nombre del nuevo cliente");
+        String nombre = entrada.nextLine();
+        System.out.println("Ingresa la dirección");
+        String direccion = entrada.nextLine();
+        System.out.println("Ingrese el telefono");
+        int telefono = entrada.nextInt();
+        
+        
+        File fichero = new File(archivo);
+        if (fichero.delete())
+         System.out.println("El fichero ha sido borrado satisfactoriamente");
+       else
+         System.out.println("El fichero no puede ser borrado");
     
+      
     }
     
-    public static ClaseGym eliminarClase() {
-    
+    public static ClaseGym eliminarClase(String archivo) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ingrese el id  de la clase");
+        int id = entrada.nextInt();
+        System.out.println("Ingrese el profesor");
+        String profesor = entrada.nextLine();
+        System.out.println("Ingrese el nombre");
+        String nombre = entrada.nextLine();
+        System.out.println("Ingrese el horario de Inicio");
+        int horarioInicio = entrada.nextInt();
+        System.out.println("Ingrese el horario final");
+        int horarioFin = entrada.nextInt();
+        
+        File fichero = new File(archivo);
+        if (fichero.delete())
+         System.out.println("El fichero ha sido borrado satisfactoriamente");
+       else
+         System.out.println("El fichero no puede ser borrado");
+        
+        
     }
     
     public static Cliente buscarCliente() {
