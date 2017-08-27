@@ -55,6 +55,12 @@ public class ClaseGym {
 
     public void setHorarioFin(int horarioFin) {
         this.horarioFin = horarioFin;
-    }      
+    }
+
+    @Override
+    public String toString() {
+        return "ClaseGym{" + "id=" + id + ", profesor=" + profesor + ", nombre=" + nombre + ", horarioInicio=" + horarioInicio + ", horarioFin=" + horarioFin + '}';
+    }
+    
  
 }
