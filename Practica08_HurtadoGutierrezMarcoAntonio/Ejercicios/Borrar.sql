@@ -1,0 +1,16 @@
+DROP TABLE cliente;
+DROP TABLE producto;
+DROP TABLE comprar;
+DROP TABLE clase;
+DROP TABLE llevar;
+DROP TABLE personal;
+DROP TABLE instructor_basico;
+DROP TABLE instructor_particular;
+DROP TABLE nutriologo;
+DROP TABLE impartir_clase;
+DROP TABLE salon;
+DROP TABLE estar;
+DROP TABLE socio;
+DROP TABLE membresia;
+DROP TABLE tipo_membresia;
+DROP TABLE tener_membresia;
