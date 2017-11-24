@@ -1,0 +1,99 @@
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1607092532999";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1685040980799";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1636012466699";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1697032983299";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1649040634999";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1636082059799";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1655061134299";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1640111272299";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1604040234399";
+DELETE​ ​ FROM​ ​ cliente ​ WHERE​ ​ clave_cliente="1691061701099";
+
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=0.5;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=1;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=2;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=3;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=4;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=5;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=6;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=7;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=8;
+DELETE​ ​ FROM​ ​ producto ​ WHERE​ ​ cantidad=9;
+
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ dia="Domingo";
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ dia="Lunes";
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ dia="Martes";
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ dia="Miercoles";
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ dia="Jueves";
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ dia="Viernes";
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ clave_clase="96742118199";
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ clave_clase="41588285299";
+DELETE​ ​ FROM​ ​ clase ​ WHERE​ ​ clave_clase="17318287299";
+
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Luis";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Mia";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Mia";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Nicholas";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Pedro";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Carolyn";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Ana";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Clarke";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Karyn";
+DELETE​ ​ FROM​ ​ personal ​ WHERE​ ​ nombre="Amelia";
+
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="una-dos";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="dos-tres";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="tres-cuatro";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="cuatro-cinco";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="cinco-seis";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="seis-siete";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="siete-ocho";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="ocho-nueve";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ hora="nueve-diez";
+DELETE​ ​ FROM​ ​ instructor_basico ​ WHERE​ ​ dia="Lunes";
+
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="una-dos";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="dos-tres";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="tres-cuatro";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="cuatro-cinco";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="cinco-seis";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="seis-siete";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="siete-ocho";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="ocho-nueve";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ hora="nueve-diez";
+DELETE​ ​ FROM​ ​ instructor_particular ​ WHERE​ ​ dia="Martes";
+
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="una-dos";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="dos-tres";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="tres-cuatro";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="cuatro-cinco";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="cinco-seis";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="seis-siete";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="siete-ocho";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="ocho-nueve";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ hora="nueve-diez";
+DELETE​ ​ FROM​ ​ nutriologo ​ WHERE​ ​ dia="Miercoles";
+
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=1;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=2;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=3;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=4;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=5;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=6;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=7;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=8;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=9;
+DELETE​ ​ FROM​ ​ salon ​ WHERE​ ​ clave_salon=10;
+
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=0;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=1;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=2;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=3;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=4;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=5;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=6;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=7;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=8;
+DELETE​ ​ FROM​ ​ socio ​ WHERE​ ​ puntos=9;
+
+DELETE​ ​ FROM​ ​ membresia ​ WHERE​ ​ basico="basico";

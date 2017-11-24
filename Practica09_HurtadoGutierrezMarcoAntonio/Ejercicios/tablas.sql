@@ -93,41 +93,41 @@ ALTER TABLE impartir_clase ADD CONSTRAINT fk_clave_impartir_instructor FOREIGN K
 
 CREATE TABLE salon(
    clave_salon INTEGER,
-   lugar VARCHAR(25),
-   Rol VARCHAR(25)
+   lugar VARCHAR(255),
+   Rol VARCHAR(255)
 );
 
 ALTER TABLE salon ADD CONSTRAINT pk_clave_salon PRIMARY KEY(clave_salon);
 
 CREATE TABLE estar(
    clave_salon INTEGER,
-   clave_clase INTEGER
+   clave_clase VARCHAR(13)
 );
 
 ALTER TABLE estar ADD CONSTRAINT fk_clave_salon FOREIGN KEY (clave_salon) REFERENCES salon(clave_salon);
 ALTER TABLE estar ADD CONSTRAINT fk_clave_clase_estar FOREIGN KEY (clave_clase) REFERENCES clase(clave_clase);
 
 CREATE TABLE socio(
-   clave_cliente INTEGER,
-   edad INTEGER,
-   correo VARCHAR(25),
-   puntos INTEGER
+   clave_cliente VARCHAR(13),
+   edad VARCHAR(255),
+   correo VARCHAR(255),
+   puntos FLOAT
 );
 
 ALTER TABLE socio ADD CONSTRAINT fk_clave_cliente_socio FOREIGN KEY (clave_cliente) REFERENCES cliente(clave_cliente);
 
 CREATE TABLE membresia(
-   clave_membresia VARCHAR(25),
-   Basico VARCHAR(25),
-   plus VARCHAR(25),
-   Premium VARCHAR(25)
+   clave_membresia VARCHAR(13),
+   basico VARCHAR(255),
+   plus VARCHAR(255),
+   premium VARCHAR(255)
 );
 
 ALTER TABLE membresia ADD CONSTRAINT pk_clave_membresia PRIMARY KEY(clave_membresia);
 
 CREATE TABLE tipo_membresia(
    clave_tipo INTEGER,
-   clave_membresia INTEGER,
+   clave_membresia VARCHAR(13),
    precio_basico INTEGER,
    precio_plus INTEGER,
    precio_premium INTEGER
@@ -137,8 +137,8 @@ ALTER TABLE tipo_membresia ADD CONSTRAINT pk_clave_tipo PRIMARY KEY(clave_tipo);
 ALTER TABLE tipo_membresia ADD CONSTRAINT fk_clave_membresia FOREIGN KEY (clave_membresia) REFERENCES membresia(clave_membresia);
 
 CREATE TABLE tener_membresia(
-   clave_membresia INTEGER,
-   clave_cliente INTEGER
+   clave_membresia VARCHAR(13),
+   clave_cliente VARCHAR(13)
 );
 
 ALTER TABLE tener_membresia ADD CONSTRAINT fk_clave_tener_membresia FOREIGN KEY (clave_membresia) REFERENCES membresia(clave_membresia);
